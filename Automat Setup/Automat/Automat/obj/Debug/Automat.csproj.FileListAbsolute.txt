@@ -1,0 +1,136 @@
+C:\Automat\bin\Debug\runtimes\win-x86\native\e_sqlite3.dll
+C:\Automat\bin\Debug\runtimes\win-x64\native\e_sqlite3.dll
+C:\Automat\bin\Debug\runtimes\win-arm\native\e_sqlite3.dll
+C:\Automat\bin\Debug\Automat.exe.config
+C:\Automat\bin\Debug\Automat.exe
+C:\Automat\bin\Debug\Automat.pdb
+C:\Automat\bin\Debug\EntityFramework.dll
+C:\Automat\bin\Debug\EntityFramework.SqlServer.dll
+C:\Automat\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Automat\bin\Debug\SQLite-net.dll
+C:\Automat\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Automat\bin\Debug\SQLitePCLRaw.core.dll
+C:\Automat\bin\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Automat\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Automat\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Automat\bin\Debug\System.Buffers.dll
+C:\Automat\bin\Debug\System.Memory.dll
+C:\Automat\bin\Debug\System.Numerics.Vectors.dll
+C:\Automat\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Automat\bin\Debug\EntityFramework.xml
+C:\Automat\bin\Debug\EntityFramework.SqlServer.xml
+C:\Automat\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Automat\bin\Debug\SQLite-net.xml
+C:\Automat\bin\Debug\System.Buffers.xml
+C:\Automat\bin\Debug\System.Memory.xml
+C:\Automat\bin\Debug\System.Numerics.Vectors.xml
+C:\Automat\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Automat\obj\Debug\Automat.csprojAssemblyReference.cache
+C:\Automat\obj\Debug\Automat.Automat_za_cigarete.resources
+C:\Automat\obj\Debug\Automat.Dodavanje_proizvoda.resources
+C:\Automat\obj\Debug\Automat.Konfiguracija.resources
+C:\Automat\obj\Debug\Automat.PostavkeCOMPorta.resources
+C:\Automat\obj\Debug\Automat.Properties.Resources.resources
+C:\Automat\obj\Debug\Automat.csproj.GenerateResource.cache
+C:\Automat\obj\Debug\Automat.csproj.CoreCompileInputs.cache
+C:\Automat\obj\Debug\Automat.csproj.CopyComplete
+C:\Automat\obj\Debug\Automat.exe
+C:\Automat\obj\Debug\Automat.pdb
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\Automat.exe.config
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\Automat.exe
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\Automat.pdb
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\EntityFramework.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\SQLite-net.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\SQLitePCLRaw.nativelibrary.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\System.Buffers.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\System.Memory.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\EntityFramework.xml
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\SQLite-net.xml
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\System.Buffers.xml
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\System.Memory.xml
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.csproj.AssemblyReference.cache
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.csproj.SuggestedBindingRedirects.cache
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Automat_za_cigarete.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.ButtonDynamics.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Dodavanje_artikla_na_stanje.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Dodavanje_artikla_na_stanje_skladiste.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Dodavanje_proizvoda.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Izbacivanje_cigareta_iz_skladišta.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Konfiguracija.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.PostavkeCOMPorta.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Postavke_skladista.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Pregled_prodaje.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Pregled_stanja.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Pregled_stanja_skladiste.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Properties.Resources.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.Storage_User_Control.resources
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.csproj.GenerateResource.cache
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.csproj.CoreCompileInputs.cache
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.csproj.CopyComplete
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.exe
+C:\Users\bruno\OneDrive\Radna površina\Automat\Automat\obj\Debug\Automat.pdb
+C:\Automat\Automat\bin\Debug\Automat.exe.config
+C:\Automat\Automat\bin\Debug\Automat.exe
+C:\Automat\Automat\bin\Debug\Automat.pdb
+C:\Automat\Automat\bin\Debug\EntityFramework.dll
+C:\Automat\Automat\bin\Debug\EntityFramework.SqlServer.dll
+C:\Automat\Automat\bin\Debug\Microsoft.Data.Sqlite.dll
+C:\Automat\Automat\bin\Debug\SQLite-net.dll
+C:\Automat\Automat\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Automat\Automat\bin\Debug\SQLitePCLRaw.core.dll
+C:\Automat\Automat\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Automat\Automat\bin\Debug\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Automat\Automat\bin\Debug\System.Buffers.dll
+C:\Automat\Automat\bin\Debug\System.Data.SQLite.dll
+C:\Automat\Automat\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Automat\Automat\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Automat\Automat\bin\Debug\System.Memory.dll
+C:\Automat\Automat\bin\Debug\System.Numerics.Vectors.dll
+C:\Automat\Automat\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Automat\Automat\bin\Debug\EntityFramework.xml
+C:\Automat\Automat\bin\Debug\EntityFramework.SqlServer.xml
+C:\Automat\Automat\bin\Debug\Microsoft.Data.Sqlite.xml
+C:\Automat\Automat\bin\Debug\SQLite-net.xml
+C:\Automat\Automat\bin\Debug\System.Buffers.xml
+C:\Automat\Automat\bin\Debug\System.Data.SQLite.xml
+C:\Automat\Automat\bin\Debug\System.Memory.xml
+C:\Automat\Automat\bin\Debug\System.Numerics.Vectors.xml
+C:\Automat\Automat\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Automat\Automat\obj\Debug\Automat.csproj.AssemblyReference.cache
+C:\Automat\Automat\obj\Debug\Automat.csproj.SuggestedBindingRedirects.cache
+C:\Automat\Automat\obj\Debug\Automat.Automat_za_cigarete.resources
+C:\Automat\Automat\obj\Debug\Automat.ButtonDynamics.resources
+C:\Automat\Automat\obj\Debug\Automat.Dodavanje_artikla_na_stanje.resources
+C:\Automat\Automat\obj\Debug\Automat.Dodavanje_artikla_na_stanje_skladiste.resources
+C:\Automat\Automat\obj\Debug\Automat.Dodavanje_proizvoda.resources
+C:\Automat\Automat\obj\Debug\Automat.Izbacivanje_cigareta_iz_skladišta.resources
+C:\Automat\Automat\obj\Debug\Automat.Konfiguracija.resources
+C:\Automat\Automat\obj\Debug\Automat.Licence.resources
+C:\Automat\Automat\obj\Debug\Automat.PostavkeCOMPorta.resources
+C:\Automat\Automat\obj\Debug\Automat.Postavke_skladista.resources
+C:\Automat\Automat\obj\Debug\Automat.Pregled_prodaje.resources
+C:\Automat\Automat\obj\Debug\Automat.Pregled_stanja.resources
+C:\Automat\Automat\obj\Debug\Automat.Pregled_stanja_skladiste.resources
+C:\Automat\Automat\obj\Debug\Automat.Properties.Resources.resources
+C:\Automat\Automat\obj\Debug\Automat.Storage_User_Control.resources
+C:\Automat\Automat\obj\Debug\Automat.User_Manual.resources
+C:\Automat\Automat\obj\Debug\Automat.csproj.GenerateResource.cache
+C:\Automat\Automat\obj\Debug\Automat.csproj.CoreCompileInputs.cache
+C:\Automat\Automat\obj\Debug\Automat.csproj.CopyComplete
+C:\Automat\Automat\obj\Debug\Automat.exe
+C:\Automat\Automat\obj\Debug\Automat.pdb

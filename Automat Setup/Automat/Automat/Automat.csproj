@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{78A94808-292F-4D8D-BFF7-27599E549A20}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Automat</RootNamespace>
+    <AssemblyName>Automat</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>TsigarTzar.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Sqlite, Version=7.0.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Data.Sqlite.Core.7.0.1\lib\netstandard2.0\Microsoft.Data.Sqlite.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.Office.Interop.Excel.15.0.4795.1001\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="SQLite-net, Version=1.8.116.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\sqlite-net-pcl.1.8.116\lib\netstandard2.0\SQLite-net.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.batteries_v2, Version=2.1.3.1795, Culture=neutral, PublicKeyToken=8226ea5df37bcae9, processorArchitecture=MSIL">
+      <HintPath>packages\SQLitePCLRaw.bundle_green.2.1.3\lib\net461\SQLitePCLRaw.batteries_v2.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.core, Version=2.1.3.1795, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL">
+      <HintPath>packages\SQLitePCLRaw.core.2.1.3\lib\netstandard2.0\SQLitePCLRaw.core.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.provider.dynamic_cdecl, Version=2.1.3.1795, Culture=neutral, PublicKeyToken=b68184102cba0b3b, processorArchitecture=MSIL">
+      <HintPath>packages\SQLitePCLRaw.provider.dynamic_cdecl.2.1.3\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLitePCLRaw.provider.e_sqlite3, Version=2.1.3.1795, Culture=neutral, PublicKeyToken=9c301db686d0bd12, processorArchitecture=MSIL">
+      <HintPath>packages\SQLitePCLRaw.provider.e_sqlite3.2.1.3\lib\netstandard2.0\SQLitePCLRaw.provider.e_sqlite3.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.EF6.1.0.117.0\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.117.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>packages\System.Data.SQLite.Linq.1.0.117.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Automat_za_cigarete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Automat_za_cigarete.Designer.cs">
+      <DependentUpon>Automat_za_cigarete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonDynamics.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ButtonDynamics.Designer.cs">
+      <DependentUpon>ButtonDynamics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\COMPort.cs" />
+    <Compile Include="Class\Computer.cs" />
+    <Compile Include="Class\Config_storage.cs" />
+    <Compile Include="Class\Info.cs" />
+    <Compile Include="Class\Logs.cs" />
+    <Compile Include="Class\Logs_dodavanje_na_stanje.cs" />
+    <Compile Include="Class\Logs_dodavanje_proizvoda.cs" />
+    <Compile Include="Class\Logs_Storage.cs" />
+    <Compile Include="Class\Logs_Storage_dodavanje_na_stanje.cs" />
+    <Compile Include="Class\Logs_Storage_dodavanje_proizvoda.cs" />
+    <Compile Include="Class\Products.cs" />
+    <Compile Include="Class\Product_storage.cs" />
+    <Compile Include="Dodavanje_artikla_na_stanje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodavanje_artikla_na_stanje.Designer.cs">
+      <DependentUpon>Dodavanje_artikla_na_stanje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dodavanje_artikla_na_stanje_skladiste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodavanje_artikla_na_stanje_skladiste.Designer.cs">
+      <DependentUpon>Dodavanje_artikla_na_stanje_skladiste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dodavanje_proizvoda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodavanje_proizvoda.Designer.cs">
+      <DependentUpon>Dodavanje_proizvoda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ini.cs" />
+    <Compile Include="Izbacivanje_cigareta_iz_skladišta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Izbacivanje_cigareta_iz_skladišta.Designer.cs">
+      <DependentUpon>Izbacivanje_cigareta_iz_skladišta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Konfiguracija.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Konfiguracija.Designer.cs">
+      <DependentUpon>Konfiguracija.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Licence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Licence.Designer.cs">
+      <DependentUpon>Licence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PostavkeCOMPorta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PostavkeCOMPorta.Designer.cs">
+      <DependentUpon>PostavkeCOMPorta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Postavke_skladista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Postavke_skladista.Designer.cs">
+      <DependentUpon>Postavke_skladista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pregled_prodaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pregled_prodaje.Designer.cs">
+      <DependentUpon>Pregled_prodaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pregled_stanja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pregled_stanja.Designer.cs">
+      <DependentUpon>Pregled_stanja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pregled_stanja_skladiste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pregled_stanja_skladiste.Designer.cs">
+      <DependentUpon>Pregled_stanja_skladiste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Storage_User_Control.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Storage_User_Control.Designer.cs">
+      <DependentUpon>Storage_User_Control.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Manual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Manual.Designer.cs">
+      <DependentUpon>User_Manual.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Automat_za_cigarete.resx">
+      <DependentUpon>Automat_za_cigarete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonDynamics.resx">
+      <DependentUpon>ButtonDynamics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dodavanje_artikla_na_stanje.resx">
+      <DependentUpon>Dodavanje_artikla_na_stanje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dodavanje_artikla_na_stanje_skladiste.resx">
+      <DependentUpon>Dodavanje_artikla_na_stanje_skladiste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dodavanje_proizvoda.resx">
+      <DependentUpon>Dodavanje_proizvoda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Izbacivanje_cigareta_iz_skladišta.resx">
+      <DependentUpon>Izbacivanje_cigareta_iz_skladišta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Konfiguracija.resx">
+      <DependentUpon>Konfiguracija.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Licence.resx">
+      <DependentUpon>Licence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PostavkeCOMPorta.resx">
+      <DependentUpon>PostavkeCOMPorta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Postavke_skladista.resx">
+      <DependentUpon>Postavke_skladista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pregled_prodaje.resx">
+      <DependentUpon>Pregled_prodaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pregled_stanja.resx">
+      <DependentUpon>Pregled_stanja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pregled_stanja_skladiste.resx">
+      <DependentUpon>Pregled_stanja_skladiste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Storage_User_Control.resx">
+      <DependentUpon>Storage_User_Control.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Manual.resx">
+      <DependentUpon>User_Manual.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="TsigarTzar.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.117.0\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>
